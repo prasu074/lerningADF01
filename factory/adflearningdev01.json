@@ -1,0 +1,9 @@
+{
+	"name": "adflearningdev01",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "660af9f8-2188-4618-9328-0139680c0874",
+		"tenantId": "51131710-8d06-49ed-921e-47c51eb715b9"
+	}
+}

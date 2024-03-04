@@ -1,0 +1,42 @@
+{
+	"name": "001_pl_delete_data_from_src",
+	"properties": {
+		"activities": [
+			{
+				"name": "delete from src",
+				"type": "Delete",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.00:10:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "src_ds_bronze",
+						"type": "DatasetReference"
+					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "ls_adls_dev01",
+							"type": "LinkedServiceReference"
+						},
+						"path": "bronze"
+					},
+					"enableLogging": true,
+					"storeSettings": {
+						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
+						"enablePartitionDiscovery": false
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-03-04T05:54:25Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
