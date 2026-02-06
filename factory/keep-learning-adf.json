@@ -1,0 +1,9 @@
+{
+	"name": "keep-learning-adf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f08265f4-054f-456a-a83e-52d9489a0f89",
+		"tenantId": "ef755273-d9fe-422b-9dfc-dd38bbd33c20"
+	}
+}
