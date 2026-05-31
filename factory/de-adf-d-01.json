@@ -1,0 +1,15 @@
+{
+	"name": "de-adf-d-01",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3555c61d-eeb6-4685-89f2-774dd361da05",
+		"tenantId": "149137a9-3249-4ae8-bd6d-e4361b1a2fa2"
+	}
+}
